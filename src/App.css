@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+  color: white;
+}
+
+.container{
+  margin-top: 80px;
+  border: 1px solid #fff;
+  padding: 20px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.header{
+  font-size: 42px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgba(230, 185, 38, 0.8);
+  margin-bottom: 20px;
+
+}
+
+.counter{
+  font-size: 36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.outeroper{
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+
+.operator{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.norop{
+  padding: 15px 30px;
+  background: #580c0e;
+  border-radius: 5px;
+  font-size: 32px;
+  cursor: pointer;
+
+}
+
+
+.inpop input[type="text"]{
+
+  font-size: 22px;
+
+  outline: unset;
+  width: 30%;
+  padding:5px 10px;
+  border-radius: 5px;
+  /* margin-left: 30px; */
+}
+
+.btn{
+
+  margin-top: 5px;
+  cursor: pointer;
+
+  padding: 5px 10px;
+  font-size: 22px;
+  background: #580c0e;
+  border-radius: 5px;
+  width: fit-content;
+
+}
